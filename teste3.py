@@ -1,5 +1,6 @@
-n1 = int(input('Digite um numero'))
-n2 = int(input('Digite outro numero'))
+n = input('Digite algo')
 
-n = n1 + n2
-print(n)
+print(n.isalpha)
+print(n.isnum)
+print(n.isalnum)
+print(n.isupper)
